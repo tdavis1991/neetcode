@@ -1,0 +1,5 @@
+Start with your base case since the length of the list could be as small as two and there is exactly one solution check to see if the length is two. If it is return [0, 1].
+
+Create a hashmap to store the values(key) and the values(index) of each number in the list.
+
+After that you want to iterate over the list using the enumerate funtion to get the value and index of each number in the list. First you want to check the difference of the target and the value by subtracting the two. Then you want to check if the difference is in the hashmap. If it is return the hashmap[difference] and the index of the current number. Which will be the indices of the two numbers that equal the target. If it is not in the hashmap add the key(current number) and the value(index pf the current number) to the hashmap.

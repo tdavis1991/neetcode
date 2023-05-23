@@ -1,0 +1,7 @@
+Start with base cases if the length of each string is different return false. If they have a length of 1 compare the two strings.
+
+Create a dict to store letters and how many times they occur for each string.
+
+iterate through both strings at the same time and check to see if the letter is in the strings dict. If it is add 1 to the key's(letter) value. If it isnt add the key(letter) to the dict with 1 as its initial value.
+
+Then return true or false if the 2 dictionaries match.

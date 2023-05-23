@@ -1,0 +1,9 @@
+Start with base case and since the string can be one letter you should check for that and return true if it is.
+
+Next you want to remove all spaces, special characters and set all letters to lowercase.
+
+After that you want to create a left and right pointer. Left starting at 0 and right starting at the end of the list.
+
+While the left pointer is smaller than the right you want to compare the letter at the left index of the string to the letter of the right index of the string. If they're not equal return false. If they are equal increment the left pointer and decrement the right pointer then repeat while the right is greater than  the left.
+
+If you make it through the whole loop return True.

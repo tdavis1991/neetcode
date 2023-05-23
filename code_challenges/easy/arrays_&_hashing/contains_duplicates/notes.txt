@@ -1,0 +1,9 @@
+Start with base case and make sure to check the list length. If the length is 1 return false since there cant be any duplicates. If its 2 elements check both elements and return true or false if they match.
+
+If it pass the base case create a set to keep track og the numbers in the list.
+Iterate through the list and check to see if the number is in the list. If not add it to the list and move to the next element. if it is return true.
+
+If you reach the end of the list without finding any dupes return false.
+
+Time complexity: O(n)
+Space complexity: O(n)
